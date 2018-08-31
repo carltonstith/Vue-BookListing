@@ -1,0 +1,23 @@
+<template lang="html">
+  <div class="book-list">
+    <h1>{{title}}</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'BookList',
+  data () {
+    return  {
+        title: 'All Books'
+    }
+  }
+}
+</script>
+
+<style lang="css">
+h1,
+h2 {
+  font-weight: normal;
+}
+</style>
